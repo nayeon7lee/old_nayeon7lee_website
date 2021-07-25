@@ -1,70 +1,285 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{DBLP:journals/corr/abs-2106-06157,
+  abbr = {SIGDIAL},
+  pdf = {https://arxiv.org/abs/2106.06157},
+  code = {https://github.com/HLTCHKUST/chatbot-political-prudence-test},
+  author    = {Yejin Bang and
+               Nayeon Lee and
+               Etsuko Ishii and
+               Andrea Madotto and
+               Pascale Fung},
+  title     = {Assessing Political Prudence of Open-domain Chatbots},
+  journal   = {The 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue},
+  volume    = {abs/2106.06157},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2106.06157},
+  archivePrefix = {arXiv},
+  eprint    = {2106.06157},
+  timestamp = {Tue, 15 Jun 2021 16:35:15 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2106-06157.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Politically sensitive topics are still a challenge for open-domain chatbots. However, dealing with politically sensitive content in a responsible, non-partisan, and safe behavior way is integral for these chatbots. Currently, the main approach to handling political sensitivity is by simply changing such a topic when it is detected. This is safe but evasive and results in a chatbot that is less engaging. In this work, as a first step towards a politically safe chatbot, we propose a group of metrics for assessing their political prudence. We then conduct political prudence analysis of various chatbots and discuss their behavior from multiple angles through our automatic metric and human evaluation metrics. The testsets and codebase are released to promote research in this area.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{DBLP:conf/naacl/LeeBMF21,
+  abbr = {NAACL-HLT},
+  pdf = {https://aclanthology.org/2021.naacl-main.158/},
+  code = {https://github.com/HLTCHKUST/Perplexity-FactChecking},
+  author    = {Nayeon Lee* and
+               Yejin Bang* and
+               Andrea Madotto and
+               Pascale Fung},
+  editor    = {Kristina Toutanova and
+               Anna Rumshisky and
+               Luke Zettlemoyer and
+               Dilek Hakkani{-}T{\"{u}}r and
+               Iz Beltagy and
+               Steven Bethard and
+               Ryan Cotterell and
+               Tanmoy Chakraborty and
+               Yichao Zhou},
+  title     = {Towards Few-shot Fact-Checking via Perplexity},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of
+               the Association for Computational Linguistics: Human Language Technologies,
+               {NAACL-HLT} 2021, Online, June 6-11, 2021},
+  pages     = {1971--1981},
+  publisher = {Association for Computational Linguistics},
+  year      = {2021},
+  url       = {https://doi.org/10.18653/v1/2021.naacl-main.158},
+  doi       = {10.18653/v1/2021.naacl-main.158},
+  timestamp = {Thu, 22 Jul 2021 15:47:25 +0200},
+  biburl    = {https://dblp.org/rec/conf/naacl/LeeBMF21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Few-shot learning has drawn researchers’ attention to overcome the problem of data scarcity. Recently, large pre-trained language models have shown great performance in few-shot learning for various downstream tasks, such as question answering and machine translation. Nevertheless, little exploration has been made to achieve few-shot learning for the fact-checking task. However, fact-checking is an important problem, especially when the amount of information online is growing exponentially every day. In this paper, we propose a new way of utilizing the powerful transfer learning ability of a language model via a perplexity score. The most notable strength of our methodology lies in its capability in few-shot learning. With only two training samples, our methodology can already outperform the Major Class baseline by more than an absolute 10% on the F1-Macro metric across multiple datasets. Through experiments, we empirically verify the plausibility of the rather surprising usage of the perplexity score in the context of fact-checking and highlight the strength of our few-shot methodology by comparing it to strong fine-tuning-based baseline models. Moreover, we construct and publicly release two new fact-checking datasets related to COVID-19.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{DBLP:conf/naacl/LeeLWFMYK21,
+  abbr = {NAACL-HLT},
+  pdf = {https://doi.org/10.18653/v1/2021.naacl-main.432},
+  author    = {Nayeon Lee and
+               Belinda Z. Li and
+               Sinong Wang and
+               Pascale Fung and
+               Hao Ma and
+               Wen{-}tau Yih and
+               Madian Khabsa},
+  editor    = {Kristina Toutanova and
+               Anna Rumshisky and
+               Luke Zettlemoyer and
+               Dilek Hakkani{-}T{\"{u}}r and
+               Iz Beltagy and
+               Steven Bethard and
+               Ryan Cotterell and
+               Tanmoy Chakraborty and
+               Yichao Zhou},
+  title     = {On Unifying Misinformation Detection},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of
+               the Association for Computational Linguistics: Human Language Technologies,
+               {NAACL-HLT} 2021, Online, June 6-11, 2021},
+  pages     = {5479--5485},
+  publisher = {Association for Computational Linguistics},
+  year      = {2021},
+  url       = {https://doi.org/10.18653/v1/2021.naacl-main.432},
+  doi       = {10.18653/v1/2021.naacl-main.432},
+  timestamp = {Thu, 22 Jul 2021 15:47:34 +0200},
+  biburl    = {https://dblp.org/rec/conf/naacl/LeeLWFMYK21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {In this paper, we introduce UnifiedM2, a general-purpose misinformation model that jointly models multiple domains of misinformation with a single, unified setup. The model is trained to handle four tasks: detecting news bias, clickbait, fake news, and verifying rumors. By grouping these tasks together, UnifiedM2learns a richer representation of misinformation, which leads to state-of-the-art or comparable performance across all tasks. Furthermore, we demonstrate that UnifiedM2's learned representation is helpful for few-shot learning of unseen misinformation tasks/datasets and model's generalizability to unseen events.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{DBLP:journals/corr/abs-2104-08775,
+  abbr = {arXiv},
+  pdf = {https://arxiv.org/abs/2104.08775},
+  author    = {Nayeon Lee and
+               Andrea Madotto and
+               Yejin Bang and
+               Pascale Fung},
+  title     = {Dynamically Addressing Unseen Rumor via Continual Learning},
+  journal   = {In arXiv preprint arXiv:2104.08775},
+  volume    = {abs/2104.08775},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2104.08775},
+  archivePrefix = {arXiv},
+  eprint    = {2104.08775},
+  timestamp = {Mon, 26 Apr 2021 17:25:10 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2104-08775.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Rumors are often associated with newly emerging events, thus, an ability to deal with unseen rumors is crucial for a rumor veracity classification model. Previous works address this issue by improving the model's generalizability, with an assumption that the model will stay unchanged even after the new outbreak of an event. In this work, we propose an alternative solution to continuously update the model in accordance with the dynamics of rumor domain creations. The biggest technical challenge associated with this new approach is the catastrophic forgetting of previous learnings due to new learnings. We adopt continual learning strategies that control the new learnings to avoid catastrophic forgetting and propose an additional strategy that can jointly be used to strengthen the forgetting alleviation.
+}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{DBLP:journals/corr/abs-2104-00336,
+  abbr = {arXiv},
+  pdf = {https://arxiv.org/abs/2104.00336},
+  author    = {Nayeon Lee and
+               Yejin Bang and
+               Andrea Madotto and
+               Pascale Fung},
+  title     = {Mitigating Media Bias through Neutral Article Generation},
+  journal   = {In arXiv preprint arXiv:2104.00336},
+  volume    = {abs/2104.00336},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2104.00336},
+  archivePrefix = {arXiv},
+  eprint    = {2104.00336},
+  timestamp = {Mon, 12 Apr 2021 16:14:56 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2104-00336.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Media bias can lead to increased political polarization, and thus, the need for automatic mitigation methods is growing. Existing mitigation work displays articles from multiple news
+outlets to provide diverse news coverage, but
+without neutralizing the bias inherent in each
+of the displayed articles. Therefore, we propose a new task, a single neutralized article
+generation out of multiple biased articles, to
+facilitate more efficient access to balanced and
+unbiased information. In this paper, we compile a new dataset (NEUWS), define an automatic evaluation metric, and provide baselines
+and multiple analyses to serve as a solid starting point for the proposed task. Lastly, we
+obtain a human evaluation to demonstrate the
+alignment between our metric and the human
+judgment.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+
+@article{DBLP:journals/corr/abs-2006-04666,
+  abbr = {arXiv},
+  pdf = {https://arxiv.org/abs/2006.04666},
+  code = {https://github.com/HLTCHKUST/covid19-misinfo-data},
+  author    = {Nayeon Lee* and
+                Yejin Bang* and
+               Andrea Madotto and
+               Pascale Fung},
+  title     = {Misinformation Has High Perplexity},
+  journal   = {CoRR},
+  volume    = {abs/2006.04666},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2006.04666},
+  archivePrefix = {arXiv},
+  eprint    = {2006.04666},
+  timestamp = {Fri, 12 Jun 2020 14:02:57 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2006-04666.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Debunking misinformation is an important and time-critical task as there could be adverse consequences when misinformation is not quashed promptly. However, the usual supervised approach to debunking via misinformation classification requires human-annotated data and is not suited to the fast time-frame of newly emerging events such as the COVID-19 outbreak. In this paper, we postulate that misinformation itself has higher perplexity compared to truthful statements, and propose to leverage the perplexity to debunk false claims in an unsupervised manner. First, we extract reliable evidence from scientific and news sources according to sentence similarity to the claims. Second, we prime a language model with the extracted evidence and finally evaluate the correctness of given claims based on the perplexity scores at debunking time. We construct two new COVID-19-related test sets, one is scientific, and another is political in content, and empirically verify that our system performs favorably compared to existing systems. We are releasing these datasets publicly to encourage more research in debunking misinformation on COVID-19 and other topics.}
+}
+
+
+@inproceedings{DBLP:conf/acl-wnlp/LeeBSF19,
+  abbr = {WiNLP},
+  pdf = {https://www.aclweb.org/anthology/W19-3638/},
+  author    = {Nayeon Lee and
+               Yejin Bang and
+               Jamin Shin and
+               Pascale Fung},
+  editor    = {Amittai Axelrod and
+               Diyi Yang and
+               Rossana Cunha and
+               Samira Shaikh and
+               Zeerak Waseem},
+  title     = {Understanding the Shades of Sexism in Popular {TV} Series},
+  booktitle = {Proceedings of the 2019 Workshop on Widening NLP@ACL 2019, Florence,
+               Italy, July 28, 2019},
+  pages     = {122--125},
+  publisher = {Association for Computational Linguistics},
+  year      = {2019},
+  url       = {https://www.aclweb.org/anthology/W19-3638/},
+  timestamp = {Fri, 14 Aug 2020 11:51:22 +0200},
+  biburl    = {https://dblp.org/rec/conf/acl-wnlp/LeeBSF19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {In the midst of a generation widely exposed to and influenced by media entertainment, the NLP research community has shown relatively little attention on the sexist comments in popular TV series. To understand sexism in TV series, we propose a way of collecting distant supervision dataset using Character Persona information with the psychological theories on sexism. We assume that sexist characters from TV shows are more prone to making sexist comments when talking about women, and show that this hypothesis is valid through experiment. Finally, we conduct an interesting analysis on popular TV show characters and successfully identify different shades of sexism that is often overlooked.}
+}
+
+@article{DBLP:journals/corr/abs-2006-04102,
+  abbr = {FEVER},
+  pdf = {https://aclanthology.org/2020.fever-1.5/},
+  author    = {Nayeon Lee and
+               Belinda Z. Li and
+               Sinong Wang and
+               Wen{-}tau Yih and
+               Hao Ma and
+               Madian Khabsa},
+  title     = {Language Models as Fact Checkers?},
+  booktitle = {Proceedings of the 3rd Workshop on Fact Extraction and Verification (FEVER)},
+  publisher = {Association for Computational Linguistics},
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.fever-1.5/},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2006-04102.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Recent work has suggested that language models (LMs) store both common-sense and factual knowledge learned from pre-training data. In this paper, we leverage this implicit knowledge to create an effective end-to-end fact checker using a solely a language model, without any external knowledge or explicit retrieval components. While previous work on extracting knowledge from LMs have focused on the task of open-domain question answering, to the best of our knowledge, this is the first work to examine the use of language models as fact checkers. In a closed-book setting, we show that our zero-shot LM approach outperforms a random baseline on the standard FEVER task, and that our finetuned LM compares favorably with standard baselines. Though we do not ultimately outperform methods which use explicit knowledge bases, we believe our exploration shows that this method is viable and has much room for exploration.}
+}
+
+@inproceedings{DBLP:conf/acl-wnlp/LeeMF19,
+  abbr = {WiNLP},
+  pdf = {https://www.aclweb.org/anthology/W19-3655/},
+  author    = {Nayeon Lee and
+               Andrea Madotto and
+               Pascale Fung},
+  editor    = {Amittai Axelrod and
+               Diyi Yang and
+               Rossana Cunha and
+               Samira Shaikh and
+               Zeerak Waseem},
+  title     = {Exploring Social Bias in Chatbots using Stereotype Knowledge},
+  booktitle = {Proceedings of the 2019 Workshop on Widening NLP@ACL 2019, Florence,
+               Italy, July 28, 2019},
+  pages     = {177--180},
+  publisher = {Association for Computational Linguistics},
+  year      = {2019},
+  url       = {https://www.aclweb.org/anthology/W19-3655/},
+  timestamp = {Fri, 14 Aug 2020 11:51:23 +0200},
+  biburl    = {https://dblp.org/rec/conf/acl-wnlp/LeeMF19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Exploring social bias in chatbot is an important, yet relatively unexplored problem. In this paper, we propose an approach to understand social bias in chatbots by leveraging stereotype knowledge. It allows interesting comparison of bias between chatbots and humans, and provides intuitive analysis of existing chatbots by borrowing the finer-grain concepts of sexism and racism.}
+}
+
+@inproceedings{DBLP:conf/semeval/LeeLF19,
+  abbr = {SemEval},
+  pdf = {https://doi.org/10.18653/v1/s19-2184},
+  author    = {Nayeon Lee and
+               Zihan Liu and
+               Pascale Fung},
+  editor    = {Jonathan May and
+               Ekaterina Shutova and
+               Aur{\'{e}}lie Herbelot and
+               Xiaodan Zhu and
+               Marianna Apidianaki and
+               Saif M. Mohammad},
+  title     = {Team yeon-zi at SemEval-2019 Task 4: Hyperpartisan News Detection
+               by De-noising Weakly-labeled Data},
+  booktitle = {Proceedings of the 13th International Workshop on Semantic Evaluation,
+               SemEval@NAACL-HLT 2019, Minneapolis, MN, USA, June 6-7, 2019},
+  pages     = {1052--1056},
+  publisher = {Association for Computational Linguistics},
+  year      = {2019},
+  url       = {https://doi.org/10.18653/v1/s19-2184},
+  doi       = {10.18653/v1/s19-2184},
+  timestamp = {Tue, 28 Jan 2020 10:29:01 +0100},
+  biburl    = {https://dblp.org/rec/conf/semeval/LeeLF19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {This paper describes our system that has been submitted to SemEval-2019 Task 4: Hyperpartisan News Detection. We focus on removing the noise inherent in the hyperpartisanship dataset from both data-level and model-level by leveraging semi-supervised pseudo-labels and the state-of-the-art BERT model. Our model achieves 75.8% accuracy in the final by-article dataset without ensemble learning.}
+}
+
+@inproceedings{DBLP:conf/emnlp/LeeWF18,
+  abbr = {EMNLP},
+  pdf = {https://doi.org/10.18653/v1/d18-1143},
+  author    = {Nayeon Lee and
+               Chien{-}Sheng Wu and
+               Pascale Fung},
+  editor    = {Ellen Riloff and
+               David Chiang and
+               Julia Hockenmaier and
+               Jun'ichi Tsujii},
+  title     = {Improving Large-Scale Fact-Checking using Decomposable Attention Models
+               and Lexical Tagging},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural
+               Language Processing, Brussels, Belgium, October 31 - November 4, 2018},
+  pages     = {1133--1138},
+  publisher = {Association for Computational Linguistics},
+  year      = {2018},
+  url       = {https://doi.org/10.18653/v1/d18-1143},
+  doi       = {10.18653/v1/d18-1143},
+  timestamp = {Tue, 28 Jan 2020 10:28:49 +0100},
+  biburl    = {https://dblp.org/rec/conf/emnlp/LeeWF18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Fact-checking of textual sources needs to effectively extract relevant information from large knowledge bases. In this paper, we extend an existing pipeline approach to better tackle this problem. We propose a neural ranker using a decomposable attention model that dynamically selects sentences to achieve promising improvement in evidence retrieval F1 by 38.80%, with (x65) speedup compared to a TF-IDF method. Moreover, we incorporate lexical tagging methods into our pipeline framework to simplify the tasks and render the model more generalizable. As a result, our framework achieves promising performance on a large-scale fact extraction and verification dataset with speedup.}
 }
