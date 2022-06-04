@@ -13,8 +13,9 @@ nav: true
 
 #### 👩🏻‍💻 Work Experience
 ----
-- <b>Research Intern</b> at Facebook AI. Worked with the Integrity AI team **&#183;** _Sept 2019 – Jan 2020_
-- <b>Software Engineering Intern</b> at Credit Suisse **&#183;** _June 2016 – Aug 2016_ 
+- <b>Research Intern</b> @ NVIDIA Applied Deep Learning Research team **&#183;** _Feb 2022 – June 2022_
+- <b>Research Intern</b> @ Facebook AI Integrity team **&#183;** _Sept 2019 – Jan 2020_
+- <b>Software Engineering Intern</b> @ Credit Suisse **&#183;** _June 2016 – Aug 2016_ 
 
 #### 👩🏻‍🏫 Academia
 ----
@@ -24,7 +25,7 @@ nav: true
     + Deep Learning (COMP6211D/ELEC6910T)&ensp;(Jan 2019 – June 2019)
 
 - <b>Reviewer and Program Committee</b>
-    + <b>Conferences</b>: ACL, EMNLP, NAACL
+    + <b>Conferences</b>: ACL, EMNLP, NAACL, ARR
     + <b>Workshops</b>: NLP for Positive Impact @ACL, FEVER workshop @EMNLP, WiNLP workshop @ACL
 
 
