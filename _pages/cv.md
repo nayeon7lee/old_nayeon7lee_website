@@ -2,7 +2,7 @@
 layout: page
 permalink: /CV/
 title: CV
-description: You can download my CV in <a href="/assets/pdf/Nayeon_CV_2021_Jan.pdf" target="_blank"><b>PDF</b></a>
+description: You can download my CV in <a href="/assets/pdf/Nayeon_CV.pdf" target="_blank"><b>PDF</b> (Last updated: 1 June 2022)</a>
 nav: true
 ---
 

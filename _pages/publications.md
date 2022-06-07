@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Check the full publications <a href="https://www.semanticscholar.org/author/Nayeon-Lee/40221187" target="_blank"><b>here</b></a>.
+description: Check the full publications <a href="https://scholar.google.com.hk/citations?user=HN6Y7z0AAAAJ&hl=en" target="_blank"><b>here</b></a>.
 years: [2022, 2021, 2020, 2019, 2018]
 nav: true
 ---
